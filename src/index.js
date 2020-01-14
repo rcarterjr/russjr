@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './MRROBOT.ttf'
+import './MrRobot.ttf'
 import './MrRobot.eot'
 import './MrRobot.svg'
 import './MrRobot.woff'
