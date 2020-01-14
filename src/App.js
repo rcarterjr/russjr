@@ -1,23 +1,20 @@
 import React from 'react'
 import './App.css'
-import Socials from './components/socials'
-import Headline from './components/headline'
-import Navbar from './components/navbar'
-import AboutMe from './components/aboutme'
-import Footer from './components/footer'
+import Typing from 'react-typing-animation'
+import Socials from './socials'
 
 function App() {
-  return (
-    <div>
-      <div className="main">
-        <Navbar />
-        <Headline />
-        <Socials />
-      </div>
-        <AboutMe />
-        <Footer />
-    </div>
-  )
+    return (
+        <div className="main">
+            <Typing>
+                <span>Hello friend</span>
+                <Typing.Delay ms={3000} />
+                <Typing.Backspace count={15} />
+                <span>Welcome to RussJr.io</span>
+            </Typing>
+            <Socials />
+        </div>
+    )
 }
 
 export default App
