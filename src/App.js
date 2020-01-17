@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.css'
 import Typing from 'react-typing-animation'
-import Socials from './socials'
+import Socials from './components/socials'
 
 function App() {
     return (
