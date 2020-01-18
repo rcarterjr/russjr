@@ -7,12 +7,14 @@ import NavItem from './navitem'
 // the page that is currently being viewed
 // no one currently links to homepage App
 
+// keep navbar at top on each page
+
 function Nav() {
-    const [page, setPage] = useState('/')
   return (
     <div className="navbar">
         < NavItem item="About me" link="/aboutme" />
         < NavItem item="Blog" link="/blog"/>
+        < NavItem item="Home" link="/"/>
     </div>
   )
 }

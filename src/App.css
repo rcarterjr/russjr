@@ -61,3 +61,8 @@ a:visited, a:focus, a:active {
 a:hover{
   color:white;
 }
+
+#navitem {
+  font-family: MrRobot;
+  font-size: calc(10px + 2vmin);
+}

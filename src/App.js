@@ -1,18 +1,25 @@
 import React from 'react'
 import './App.css'
-import Socials from './components/socials'
-import Hello from './components/hellofriend'
+import { Route, Switch, BrowserRouter as Router } from 'react-router-dom'
+import About from './components/about'
+import Blog from './components/blog'
 import Navbar from './components/navbar'
+import Home from './components/home'
+import ErrorPage from './components/notfound';
 
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <div className="main">
-        <Hello />
-        <Socials />
+    <Router>
+      <div>
+        <Navbar />
+        <Switch>     
+          <Route exact path="/"> <Home/> </Route>
+          <Route path="/blog"> <Blog /> </Route>
+          <Route path="/aboutme"> <About /> </Route>
+          <Route component={ErrorPage} />
+        </Switch>
       </div>
-    </div>
+    </Router>
   )
 }
 

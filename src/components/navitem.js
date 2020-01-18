@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 function NavItem(props) {
   return (
     <Link to={props.link}>
-      <span className="navitem">{props.item}</span>
+      <span className="navitem" id="navitem">{props.item}</span>
     </Link>
   )
 }
