@@ -46,9 +46,18 @@ body {
   width: 100%;
   display: flow-root;
   color: black;
+  margin-top: 10px;
 }
 
 .navitem {
-  margin-right: 2%;
+  padding-right: 1%;
+  padding-left: 1%;
   float: right;
+}
+
+a:visited, a:focus, a:active {
+  color:black;
+}
+a:hover{
+  color:white;
 }
