@@ -10,7 +10,7 @@ import ErrorPage from './components/notfound';
 function App() {
   return (
     <Router>
-      <div>
+      <div className="App">
         <Navbar />
         <Switch>     
           <Route exact path="/"> <Home/> </Route>

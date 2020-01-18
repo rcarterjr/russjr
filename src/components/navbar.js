@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import '../App.css'
 import NavItem from './navitem'
 
@@ -10,6 +10,7 @@ import NavItem from './navitem'
 // keep navbar at top on each page
 
 function Nav() {
+
   return (
     <div className="navbar">
         < NavItem item="About me" link="/aboutme" />
