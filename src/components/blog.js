@@ -3,7 +3,9 @@ import '../App.css'
 
 function Blog() {
     return(
-        <h1>WELCOME TO MY BLOG</h1>
+        <div>
+            <h1>IS THIS BELOW THE NAVBAR??</h1>
+        </div>
     )
 }
 
